@@ -1,3 +1,5 @@
+# Standalone config repo that references zmk as a dependency
+# Used to add animations to the board
 manifest:
   remotes:
     - name: zmkfirmware
