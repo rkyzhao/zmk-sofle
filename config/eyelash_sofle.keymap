@@ -58,8 +58,8 @@
 &kp ESC     &kp F1        &kp F2          &kp F3           &kp F4           &kp F5         &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9      &kp MINUS     &kp EQUAL
 &trans      &sk N1        &sk N2          &sk N3           &sk N4           &sk N5         &mmv MOVE_DOWN   &sk N6           &sk N7           &sk N8      &sk N9      &kp LBKT      &kp RBKT
 &kp ESC     &kp LBKT      &kp RBKT        &kp LBRC         &kp RBRC         &kp HOME       &mmv MOVE_LEFT   &kp LEFT         &kp DOWN         &kp UP      &kp RIGHT   &sk SEMI      &kp ENTER
-&trans      &kp PG_UP     &kp PG_DN       &sk COMMA        &sk DOT          &kp END        &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11     &kp F12       &trans
-&kp C_MUTE  &kp INSERT    &trans          &trans           &trans           &trans         &mkp LCLK        &trans           &trans           &trans      &trans     &trans
+&trans      &kp PG_UP     &kp PG_DN       &sk COMMA        &sk DOT          &kp END        &mmv MOVE_RIGHT  &sk N0           &kp F10          &kp F11     &kp F12     &trans        &kp RIGHT_SHIFT
+&kp C_MUTE  &kp INSERT    &trans          &trans           &trans           &trans         &mkp LCLK        &trans           &trans           &trans      &trans      &trans
             >;
 
             display-name = "Layer 1";
@@ -75,7 +75,7 @@
 &trans     &trans           &trans           &rgb_ug RGB_BRI  &rgb_ug RGB_BRD   &trans          &mkp LCLK        &trans  &trans   &sys_reset  &soft_off  &bootloader
             >;
             
-            display-name = "Layer 2"
+            display-name = "Layer 2";
             sensor-bindings = <&scroll_encoder>;
         };
 
