@@ -60,7 +60,7 @@ layers:
   - Layer 1
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - <&scroll_encoder>
+  - Layer 2
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:backspace-reverse-outline$$
@@ -112,12 +112,12 @@ layers:
   - {t: ., h: '$$mdi:gesture-tap-hold$$', s: '>'}
   - END
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - RGB BRI
-  - RGB BRD
-  - Ins
+  - {t: '0', h: '$$mdi:gesture-tap-hold$$', s: )}
+  - F10
   - F11
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - Ins
   - {t: '$$mdi:transfer$$', type: trans}
@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  <&scroll_encoder>:
+  Layer 2:
   - {t: '$$mdi:transfer$$', type: trans}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
