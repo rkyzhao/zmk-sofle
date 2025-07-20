@@ -42,11 +42,11 @@
 
         layer0 {
             bindings = <
-&kp GRAVE    &kp N1     &kp N2        &kp N3        &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7     &kp N8      &kp N9           &kp N0     &kp BACKSPACE
-&kp TAB      &kp Q      &kp W         &kp E         &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I       &kp O            &kp P        &kp BSLH
-&kp LCTRL    &kp A      &kp S         &kp D         &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J      &kp K       &kp L            &kp SEMI    &kp APOS
-&kp LSHFT    &kp Z      &kp X         &kp C         &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA   &kp DOT          &kp FSLH     &kp RIGHT_SHIFT
-&kp C_MUTE   &kp LCTRL  &kp LEFT_GUI  &kp LALT      &mo 1   &kp ENTER    &kp ENTER        &mo 2      &kp SPACE  &kp RALT    &kp DELETE       &kp RCTRL
+&kp GRAVE    &kp N1     &kp N2        &kp N3         &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7     &kp N8           &kp N9           &kp N0       &kp BACKSPACE
+&kp TAB      &kp Q      &kp W         &kp E          &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I            &kp O            &kp P        &kp BSLH
+&kp LCTRL    &kp A      &kp S         &kp D          &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J      &kp K            &kp L            &kp SEMI     &kp APOS
+&kp LSHFT    &kp Z      &kp X         &kp C          &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA        &kp DOT          &kp FSLH     &kp RIGHT_SHIFT
+&kp C_MUTE   &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT   &mo 1   &kp ENTER    &kp ENTER        &mo 2      &kp SPACE  &kp RIGHT_ALT    &kp DELETE       &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -59,7 +59,7 @@
 &trans      &sk N1        &sk N2          &sk N3           &sk N4           &sk N5         &mmv MOVE_DOWN   &sk N6           &sk N7           &sk N8      &sk N9      &kp LBKT      &kp RBKT
 &kp ESC     &kp LBKT      &kp RBKT        &kp LBRC         &kp RBRC         &kp HOME       &mmv MOVE_LEFT   &kp LEFT         &kp DOWN         &kp UP      &kp RIGHT   &sk SEMI      &kp ENTER
 &trans      &kp PG_UP     &kp PG_DN       &sk COMMA        &sk DOT          &kp END        &mmv MOVE_RIGHT  &sk N0           &kp F10          &kp F11     &kp F12     &trans        &kp RIGHT_SHIFT
-&kp C_MUTE  &kp INSERT    &kp CAPS          &trans           &trans           &trans         &mkp LCLK        &trans           &trans           &trans      &trans      &trans
+&kp C_MUTE  &kp INSERT    &kp CAPS        &trans           &trans           &trans         &mkp LCLK        &trans           &trans           &trans      &trans      &trans
             >;
 
             display-name = "Layer 1";
