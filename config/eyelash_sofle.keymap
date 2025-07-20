@@ -59,7 +59,7 @@
 &trans      &sk N1        &sk N2          &sk N3           &sk N4           &sk N5         &mmv MOVE_DOWN   &sk N6           &sk N7           &sk N8      &sk N9      &kp LBKT      &kp RBKT
 &kp ESC     &kp LBKT      &kp RBKT        &kp LBRC         &kp RBRC         &kp HOME       &mmv MOVE_LEFT   &kp LEFT         &kp DOWN         &kp UP      &kp RIGHT   &sk SEMI      &kp ENTER
 &trans      &kp PG_UP     &kp PG_DN       &sk COMMA        &sk DOT          &kp END        &mmv MOVE_RIGHT  &sk N0           &kp F10          &kp F11     &kp F12     &trans        &kp RIGHT_SHIFT
-&kp C_MUTE  &kp INSERT    &trans          &trans           &trans           &trans         &mkp LCLK        &trans           &trans           &trans      &trans      &trans
+&kp C_MUTE  &kp INSERT    &kp CAPS          &trans           &trans           &trans         &mkp LCLK        &trans           &trans           &trans      &trans      &trans
             >;
 
             display-name = "Layer 1";
